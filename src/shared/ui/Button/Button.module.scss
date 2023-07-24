@@ -1,0 +1,51 @@
+.button {
+  padding: 6px 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: var(--form-elem-radius);
+  position: relative;
+
+  &:hover {
+    opacity: 0.8;
+    fill-opacity: 0.8;
+  }
+
+  &.isLoading {
+    color: transparent;
+  }
+}
+
+.outline {
+  background: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.clear {
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+}
+
+.size_m {
+  font: var(--font-m);
+}
+
+.size_l {
+  font: var(--font-l);
+}
+
+.size_xl {
+  font: var(--font-xl);
+}
+
+.disabled {
+  opacity: 0.5;
+}

@@ -1,0 +1,60 @@
+:root {
+  --font-family-text: "Nunito Sans", sans-serif;
+  --font-family-header: "Roboto", sans-serif;
+
+  // s
+  --font-size-s: 12px;
+  --font-line-s: 20px;
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-text);
+
+  // m
+  --font-size-m: 16px;
+  --font-line-m: 24px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-text);
+
+  // l
+  --font-size-l: 24px;
+  --font-line-l: 32px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-header);
+
+  // xl
+  --font-size-xl: 32px;
+  --font-line-xl: 40px;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-header);
+
+  // z - Indexes
+  --modal-z-index: 1000;
+  --overlay-z-index: 100;
+
+  //paddings
+  --padding-s: 12px;
+  --padding-m: 24px;
+
+  --margin-s: 12px;
+  --margin-m: 24px;
+
+  // colors
+  --primary-color: #0232c2;
+
+  --overlay-color: rgba(0 0 0 / 60%);
+  --red-light: #f00;
+  --red-dark: #ce0505;
+  --primary-text-color: #141c1f;
+  --primary-label-color: #121d20;
+  --light-bg-color: #e2eef1;
+  --dark-bg-color: #3c3b44;
+  --white: #ffffff;
+  --accent-color: #00c8ff;
+  --icon-color: #729da8;
+
+  //input border
+  --input-border: 1px solid #b5c7cc;
+  --input-focused: 1px solid #95b3bb;
+  --form-elem-radius: 3px;
+
+  //shadow
+  --primary-card-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+  //sizes
+  --min-input-height: 40px;
+}

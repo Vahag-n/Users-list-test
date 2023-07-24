@@ -1,0 +1,27 @@
+.inputWrapper {
+  display: flex;
+  border: var(--input-border);
+  border-radius: var(--form-elem-radius);
+  height: var(--min-input-height);
+
+  &:focus-within {
+    border: var(--input-focused);
+  }
+
+  .input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--primary-text-color);
+    padding: 0 var(--padding-s);
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.mainPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: var(--padding-m);
+  position: relative;
+
+  .head {
+    margin-bottom: var(--margin-m);
+  }
+}

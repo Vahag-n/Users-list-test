@@ -1,0 +1,21 @@
+.userDetails {
+  min-width: 500px;
+  min-height: 200px;
+  position: relative;
+  padding: var(--padding-s);
+
+  .addressInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--margin-s);
+
+    .col {
+      flex-grow: 1;
+    }
+  }
+
+  .label {
+    margin-right: 4px;
+    color: var(--primary-label-color);
+  }
+}

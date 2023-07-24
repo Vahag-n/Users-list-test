@@ -1,0 +1,32 @@
+.userItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: var(--padding-s) var(--padding-m);
+  box-shadow: var(--primary-card-shadow);
+
+  &:hover {
+    background-color: var(--light-bg-color);
+  }
+
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .actions {
+  }
+
+  .field {
+    display: flex;
+    align-items: center;
+
+    .label {
+      margin-right: 4px;
+      color: var(--primary-label-color);
+    }
+  }
+}
