@@ -9,7 +9,7 @@ import "app/styles/index.scss";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/users-list-test/"}>
       <StoreProvider>
         <App />
       </StoreProvider>
